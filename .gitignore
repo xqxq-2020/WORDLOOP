@@ -1,0 +1,14 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Personal hosting configuration
+.openai/
+
+# Local tooling and generated caches
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
